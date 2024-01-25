@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+p {
+    font-size: 2.9em;
+    color: darkgoldenrod;
+}
+
+.title{
+    background-color: beige;
+    font-size: smaller;
+    color: black;
+}
+
+#first{
+    font-size: 4.5em;
+    color: darkolivegreen;
+}
+
+.logo {
+width: 250px;
+height: 150px;
+}
+
+.with {
+    
+    width: 70vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 2em 2em 2em;
+    border-radius: 10%;
+    transition: 3s;
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: chartreuse;
+}
+
+#container {
+    background-color: darkslategray;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid white;
+    border-radius: .5em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
